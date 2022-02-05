@@ -1,0 +1,17 @@
+.formation{
+    display: flex;
+    height: 700px;
+    .first-part-formation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: $col6;
+        border-right: 1px solid black;
+    }
+    .second-part-formation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: $col6;
+    }
+}

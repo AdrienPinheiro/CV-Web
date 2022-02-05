@@ -1,0 +1,18 @@
+.biographie{
+    .profil{
+        display: flex;
+        margin: 75px 0;
+        img{
+            padding-left: 150px;
+            height: $col4;
+            width: $col4;
+        }
+        .column{
+            padding-left: 20px;
+            padding-top: 20px;
+            p{
+                padding-left: 20px;
+            }
+        }
+    }
+}

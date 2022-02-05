@@ -1,0 +1,24 @@
+.contact{
+    display: flex;
+    .formulaire{
+        margin: 50px 0;
+        padding-left: $col4;
+        width: $col8;
+        h2{
+            margin: 0 0 30px 10px ;
+        }
+        #email{
+            width: $col6;
+        }
+        #second_email{
+            width: $col6;
+        }
+        #sujet{
+            width: $col6;
+        }
+        #message{
+            width: $col6;
+            height: 150px;
+        }
+    }
+}

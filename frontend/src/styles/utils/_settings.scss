@@ -1,0 +1,84 @@
+//Font
+
+$size-min: 18px;
+
+// Colors
+
+$primary: orange;
+$secondary: blue;
+
+// Variables
+
+$col1: 8.33%;
+$col2: 16.66%;
+$col3: 25%;
+$col4: 33.33%;
+$col5: 41.66%;
+$col6: 50%;
+$col7: 58.33%;
+$col8: 66.66%;
+$col9: 75%;
+$col10: 83.33%;
+$col11: 91.66%;
+$col12: 100%;
+
+// Breakpoint
+
+$breakpoint:(
+    mobile: 600px,
+    phone: 800px,
+    tablette: 1025px,
+    ecran: 1285px,
+);
+
+// Mixin
+
+@mixin mobile-only {
+    @media screen and (max-width: map-get($breakpoint, mobile)){
+        @content
+    }
+};
+
+@mixin phone-only {
+    @media screen and (max-width: map-get($breakpoint, phone)) {
+        @content
+    }
+};
+
+@mixin tablette-only {
+    @media screen and (max-width: map-get($breakpoint, tablette)) {
+        @content
+    }
+};
+
+@mixin ecran {
+    @media screen and (max-width: map-get($breakpoint, ecran)) {
+        @content
+    }    
+};
+
+// General
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: $size-min;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    &:visited{
+        color: black;
+    }
+}
+
+li{
+    list-style: none;
+}
