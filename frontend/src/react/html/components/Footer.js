@@ -7,15 +7,17 @@ const Footer = () => {
     return (
         <footer>
             <div className="footer">
-                <h3>Liens utiles:</h3>
                 <nav>
                     <ul>
-                        <li><a href="https://github.com/AdrienPinheiro" target="_blank">Github</a></li>
-                        <li><a href="../document/CV_AdrienPINHEIRO.pdf" download>Mon CV</a></li>
-                        <NavLink exact to="/contact"><li>Contact</li></NavLink>
+                        <li><a href="https://github.com/AdrienPinheiro" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/adrien-pinheiro/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="../document/CV_AdrienPINHEIRO.pdf" download><i class="fas fa-address-card"></i></a></li>
+                        <NavLink exact to="/contact"><li><i class="fas fa-envelope"></i></li></NavLink>
                     </ul>
                 </nav>
+                
             </div>
+            <p>Adrien Pinheiro - Tous droits réservés - 2022</p>
         </footer>
     )
 }

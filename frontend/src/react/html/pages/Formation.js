@@ -1,15 +1,21 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
+
 const Formation = () => {
 
     return(
         <div className="formation">
-            <div className="first-part-formation">
-                <p>Professionnelles</p>
-            </div>
+            <NavLink exact to="/experiences">
+                <div className="first-part-formation">
+                    <p>Expériences</p>
+                </div>
+            </NavLink>
+            <NavLink exact to="/scolaires">
             <div className="second-part-formation">
-                <p>Scholaires</p>
+                <p>Scolaires</p>
             </div>
+            </NavLink>
         </div>
     )
 

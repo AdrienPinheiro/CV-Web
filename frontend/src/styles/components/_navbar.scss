@@ -7,6 +7,10 @@
         width: $col8;
         h1{
             padding-left: 20px;
+            color: $black;
+            &:hover{
+                color: $primary;
+            }
         }
     }
     .second-part-header{
@@ -14,9 +18,6 @@
         ul{
             display: flex;
             justify-content: space-around;
-            li:active{
-                border-bottom: 1px solid blue;
-            }
         }
     }
 }

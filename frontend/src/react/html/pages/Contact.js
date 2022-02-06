@@ -6,8 +6,10 @@ const Contact = () => {
 
     return(
         <div className="contact">
-            <div className="formulaire">
+            <div className="contact-message">
                 <h2>Contactez-moi !</h2>
+            </div>
+            <div className="formulaire">
                 <form action="" id="">
                     <label htmlFor="email">Email</label>
                     <br/>
@@ -53,7 +55,7 @@ const Contact = () => {
                     />
                     <div className="message-error"></div>
                     <br/>
-                    <input type="submit" value="Envoyer"/>
+                    <input type="submit" value="Envoyer" className="btn-contact"/>
                 </form>
             </div>
         </div>

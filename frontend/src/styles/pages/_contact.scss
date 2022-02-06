@@ -1,24 +1,53 @@
 .contact{
-    display: flex;
-    .formulaire{
-        margin: 50px 0;
-        padding-left: $col4;
-        width: $col8;
+    .contact-message{
+        height: 125px;
+        background-color: #0ebca5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
         h2{
-            margin: 0 0 30px 10px ;
+            color: $white;
+            font-size: 40px;
+        }
+    }
+    .formulaire{
+        height: 525px;
+        margin: 60px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form{
+            position: relative;
+            left: -100px;
         }
         #email{
-            width: $col6;
+            width: 200%;
         }
         #second_email{
-            width: $col6;
+            width: 200%;
         }
         #sujet{
-            width: $col6;
+            width: 200%;
         }
         #message{
-            width: $col6;
-            height: 150px;
+            width: 200%;
+            padding: 5px 5px 150px 5px;
+        }
+        .btn-contact{
+            position: relative;
+            left: 25px;
+            width: 180%;
+            height: 45px;
+            color: $white;
+            background-color: $primary;
+            border: none;
+            font-family: 'Lobster';
+            font-size: 20px;
+            &:hover{
+                cursor: pointer;
+                font-size: 25px;
+            }
         }
     }
 }

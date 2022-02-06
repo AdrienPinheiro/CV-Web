@@ -1,17 +1,28 @@
 .formation{
-    display: flex;
-    height: 700px;
-    .first-part-formation{
+    a{
         display: flex;
-        align-items: center;
-        justify-content: center;
-        width: $col6;
-        border-right: 1px solid black;
-    }
-    .second-part-formation{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: $col6;
+        height: 770px;
+        .first-part-formation{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: $col6;
+            border-right: 1px solid black;
+            &:hover{
+                background-color: $primary;
+                display: block;
+                p{
+                    position: relative;
+                    top:50px;
+                    left: 50px;
+                }
+            }
+        }
+        .second-part-formation{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: $col6;
+        }
     }
 }

@@ -1,11 +1,13 @@
 //Font
 
 $size-min: 18px;
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 
 // Colors
 
-$primary: orange;
-$secondary: blue;
+$primary: #0ebca5;
+$black: #111111;
+$white: #FFFFFF;
 
 // Variables
 
@@ -63,9 +65,17 @@ body{
     margin: 0;
     padding: 0;
     font-size: $size-min;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'MuseoModerno', cursive;
     margin: 0;
     padding: 0;
 }
