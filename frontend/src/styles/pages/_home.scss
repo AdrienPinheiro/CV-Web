@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: $col12;
+    a{
+        height: 600px;
+        border: 1px solid black;
+        width: $col1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            width: $col2;
+        }
+    }
+}

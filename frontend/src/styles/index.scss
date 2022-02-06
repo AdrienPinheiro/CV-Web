@@ -1,10 +1,13 @@
 @import "./utils/settings";
 
+@import "./pages/home";
 @import "./pages/accueil";
 @import "./pages/biographie";
 @import "./pages/formation";
 @import "./pages/contact";
 
 @import "./components/navbar";
-@import "./components//footer";
+@import "./components/footer";
 @import "./components/card";
+@import "./components/experience";
+@import "./components/school";

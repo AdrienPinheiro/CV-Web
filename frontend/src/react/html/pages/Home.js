@@ -1,42 +1,62 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
+
 const Home = () => {
 
     return(
 
         <div className="home">
-            <div className="menu-group">
-                <div className="row">
-                    <div className="little-card">
-                        <h3>Autobiographie</h3>
-                    </div>
-    
-                    <div className="little-card">
-                        <h3>Formulaire de contact</h3>
-                    </div>
+            <NavLink exact to="/a-propos">
+                <div className="menu-card">
+                    <h4>Autobio</h4>
                 </div>
-                <div className="card">
-                    <h3>Expérience et formation</h3>
-                </div>
+            </NavLink>
+            <NavLink exact to="/mes-formations">
+            <div className="menu-card">
+                <h4>Formations</h4>
             </div>
-            <div className="project-group">
-                <div className="card">
-                    <p>project</p>
-
+            </NavLink>
+            <NavLink exact to="/veille">
+                <div className="menu-card">
+                    <h4>Veille technologique</h4>
                 </div>
-
-                <div className="row">
-                    <div className="little-card">
-                    
-
-                    </div>
-    
-                    <div className="little-card">
-                        
-    
-                    </div>
+            </NavLink>
+            <NavLink exact to="/contact">
+                <div className="menu-card">
+                    <h4>Contact</h4>
                 </div>
-            </div>
+            </NavLink>
+            <NavLink exact to="/reservia">
+                <div className="menu-card">
+                    <h4>Réservia</h4>
+                </div>
+            </NavLink>
+            <NavLink exact to="/ohmyfood">
+                <div className="menu-card">
+                    <h4>Ohmyfood</h4>
+                </div>
+            </NavLink>
+            <NavLink exact to="/la-chouette-agence">
+                <div className="menu-card">
+                    <h4>La Chouette Agence</h4>
+                </div>
+            </NavLink>
+            <NavLink exact to="/orinoco">
+                <div className="menu-card">
+                    <h4>Orinoco</h4>
+                </div>
+            </NavLink>
+            <NavLink exact to="/piquante">
+                <div className="menu-card">
+                    <h4>Piquante</h4>
+                </div>
+            </NavLink>
+            <NavLink exact to="/groupomania">
+                <div className="menu-card">
+                    <h4>Groupomania</h4>
+                </div>
+            </NavLink>
         </div>
     )
 

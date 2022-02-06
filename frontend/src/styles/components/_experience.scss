@@ -1,0 +1,53 @@
+.formations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    a{
+        position: absolute;
+        top: 130px;
+        left: 150px;
+        font-size: 30px;
+    }
+    h3{
+        text-align: center;
+        padding: 80px 0;
+        font-size: 30px;
+        width: $col11;
+        background-color: $white;
+        color: $primary;
+    }
+    .card-formation-first{
+        height: 200px;
+        width: $col11;
+        background-color: $primary;
+        color: $white;
+        .top-card-formation-first{
+            display: flex;
+            align-items: center;
+            i{
+                padding: 0 15px 0 200px;
+            }
+        }
+        .bottom-card-formation-first{
+            margin: 20px 0;
+            padding-left: 15%;
+        }
+    }
+    .card-formation-second{
+        height: 200px;
+        width: $col11;
+        background-color: $white;
+        .top-card-formation-second{
+            display: flex;
+            align-items: center;
+            i{
+                padding: 0 15px 0 200px;
+            }
+        }
+        .bottom-card-formation-second{
+            margin: 20px 0;
+            padding-left: 15%;
+        }
+    }
+}
