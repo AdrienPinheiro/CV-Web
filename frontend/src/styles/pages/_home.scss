@@ -1,19 +1,28 @@
 .home{
     display: flex;
-    justify-content: space-around;
-    height: 600px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    width: $col12;
-    a{
-        height: 600px;
-        border: 1px solid black;
-        width: $col1;
+    justify-content: center;
+    .home-card{
+        margin: 100px 0;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        &:hover{
-            width: $col2;
+        background-color: $white;
+        width: $col11;
+        border: 5px solid $primary;
+        .home-card-top{
+            padding: 50px 0;
+            width: $col10;
+            img{
+                margin-left: 15%;
+                width: $col6;
+                border-radius: 5%;
+            }
+        }
+        .home-card-bottom{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: $primary;
+            font-size: 50px;
+            width: $col8;
         }
     }
 }

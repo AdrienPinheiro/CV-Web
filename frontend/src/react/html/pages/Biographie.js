@@ -5,24 +5,22 @@ const Biographie = () => {
     return(
         <div className="biographie">
             <div className="profil">
-                <img src="./img/AdrienPinheiro-img.jpg"/>
+                <a href="https://openclassrooms.com/fr/paths/556-developpeur-web#path-tabs" target="_blank"><img src="./img/formationopenclassrooms.png"/></a>
                 <div className="column">
                     <h2>Parcours</h2>
                     <p>
-                        Après avoir obtenu mon baccalauréat littéraire en 2017, 
-                        j'ai tenté plusieurs voies avant de me retourner vers une passion qui ne m'avait pas directement sauté aux yeux, l'informatique.
-                        <br/>
-                        Après avoir tenté une première fois de commencer mon aventure dans cette nouvelle idée en 2018 en alternance pour avoir un BTS
-                        développeur web et web mobile, je l'ai finalement fait en parcours classique chez OpenClassrooms en 2020.
-                         <br/>
-                        Apprendre en autonomie avec une formation en distanciel a été une première pour moi, mais force de persévérance et de maux de tête,
-                        j'ai finalement réussi  à obtenir mon tant convoité titre RNCP Développeur Web ! Mais mes envies avait aussi évolué entre temps, 
-                        j'avais envie de découvrir de nouvelle plateforme et, après m'être renseigné sur le sujet, avait décidé de continuer sur 
-                        un niveau licence : Développeur d'application.
-                        En effet, le marché étant de plus en plus développer (une augmentation de 80% de l'utilisation depuis 2018 !), 
-                        je pense que cela ne peut être que bénéfique pour mon futur de ne pas m'arrêter à mon BTS.
-                        <br/>
-                        Aujourd'hui je continue donc mes études pour obtenir ce niveau licence Développeur d'application mobile spécialisé Java.
+                    Après avoir obtenu mon baccalauréat littéraire en 2017, 
+                    j'ai tenté plusieurs secteurs avant de me retourner vers une passion qui ne m'avait pas directement sauté aux yeux, l'informatique. <br/> 
+                    En 2018, j'ai tenté pour la première fois de commencer mon aventure dans cette nouvelle voie. 
+                    Je souhaitais intégrer le BTS Développeur Web et Web Mobile en alternance mais faute d'avoir trouvé une entreprise, 
+                    j'ai finalement débuté ce diplôme en initial chez OpenClassrooms au cours de l'année 2020 - 2021. <br/> 
+                    Apprendre en autonomie avec une formation en distanciel a été une première pour moi mais à force de persévérance et de maux de tête, 
+                    j'ai finalement réussi à obtenir mon tant convoité titre RNCP Développeur Web ! Cependant mes envies avaient elles aussi évolué entre temps. 
+                    J'avais envie de découvrir de nouvelle plateforme et après m'être renseigné sur le sujet, 
+                    j'ai décidé de continuer avec un niveau licence : Développeur d'Application. 
+                    En effet, le marché étant en constante évolution (une augmentation de 95% de l'utilisation depuis 2018 !), 
+                    je pense que cela ne peut être que bénéfique pour mon futur de poursuivre mes études. <br/> 
+                    Aujourd'hui je continue donc mes études pour obtenir ce niveau licence Développeur d'Application mobile spécialisé Java.
                     </p>
                 </div>
             </div>
@@ -30,26 +28,23 @@ const Biographie = () => {
                 <div className="top-card-biographie">
                     <h2>Objectifs</h2>
                     <p>
-                        Actuellement j'ai plusieurs projets personnels qui m'aideront à m'améliorer en tant que développeur.
-                        <br/>
-                        Le premier concerne mon côté développeur web. De nature créatif, j'ai écrit tout un univers avec une histoire qui l'accompagne.
-                        J'aimerais la mettre en avant en créant un site web avec une partie forum ceux qui me permettra d'échanger avec les visiteurs.
-                        <br/>
-                        En plus de mettre en avant mon univers, cela me permettra de continuer d'avancer cette histoire et de maintenir le site à jour.
-                        Côté professionnel, je vais apprendre à aller plus loin en essayer d'y intégrer une carte interactive avec des sons lors de passage sur les menus
-                        ou m'améliorer sur le Front ! Tant que je m'améliore, cela ne peut être qu'une bonne idée.
-                        <br/>
-                        Le deuxième concerne ma future formation développeur d'application spécialisé Java. En effet, j'ai commencé à apprendre le langage Java en avance pour
-                        pouvoir être effectif le plus vite possible. Pour cela je suis des cours et des tutos de petits projets pour comprendre ce que j'étudie.
-                        <br/>
-                        J'ai quand même en parallèle une idée d'application à développer, mais ça je le garde pour plus tard !
+                    Actuellement j'ai plusieurs projets personnels qui m'aideront à m'améliorer en tant que Développeur. <br/> 
+                    Le premier projet concerne mon côté Développeur Web. De nature créatif, j'ai écrit tout un univers avec une histoire qui l'accompagne.
+                    J'aimerais la mettre en avant en créant un site web avec une partie forum ce qui me permettra d'échanger avec les visiteurs. <br/> 
+                    En plus de mettre en avant mon univers, cela me permettra de continuer d'avancer cette histoire et de maintenir le site à jour. 
+                    Côté professionnel, je vais apprendre à aller plus loin en essayer d'y intégrer une carte interactive avec des sons lors de passage sur les menus ou m'améliorer sur le Front !
+                    Tant que je m'améliore, cela ne peut être qu'une bonne idée. <br/> 
+                    Le deuxième projet concerne ma future formation de Développeur d'Application spécialisé Java. 
+                    En effet, j'ai commencé à apprendre le langage Java en avance pour pouvoir être effectif le plus vite possible. 
+                    Pour cela je suis des cours et des tutos de petits projets pour comprendre ce que j'étudie. <br/> 
+                    J'ai quand même en parallèle une idée d'application à développer, mais ça je le garde pour plus tard !
                     </p>
                 </div>
                 <div className="bottom-card-biographie">
-                    <img src="./img/pre-header-parasyte.png"/>
-                    <img src="./img/different-menu-parasyte.png"/>
-                    <img src="./img/forum-parasyte.png"/>
-                    <img src="./img/carte-parasyte.jpg"/>
+                    <a href="./img/different-menu-parasyte.png" target="_blank"><img src="./img/different-menu-parasyte.png"/></a>
+                    <a href="./img/forum-parasyte.png" target="_blank"><img src="./img/forum-parasyte.png"/></a>
+                    <a href="./img/pre-header-parasyte.png" target="_blank"><img src="./img/pre-header-parasyte.png"/></a>
+                    <a href="./img/carte-parasyte.jpg" target="_blank"><img src="./img/carte-parasyte.jpg"/></a>
                 </div>
             </div>
         </div>
