@@ -15,7 +15,7 @@ const Piquante = () => {
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/piquante.png" alt="Projet 6"/>
+                <img src="./img/piquante.png" alt="Projet 6"/>
                 <p>
                 Dans ce projet, nous devions créer une api et donc apprendre à faire du back pour la première fois ! <br/><br/>
                 Nous avions plusieurs consignes:<br/><br/>

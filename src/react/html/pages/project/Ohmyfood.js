@@ -15,7 +15,7 @@ const Ohmyfood = () => {
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/ohmyfood.png" alt="Projet 3"/>
+                <img src="./img/ohmyfood.png" alt="Projet 3"/>
                 <p>Dans ce nouveau projet, nous apprenions le responsive. Nous devions fire un site web d'une startup qui voulait s'imposer sur le marché de la
                     restaurations.<br/><br/>
                     Pour cela nous devions :<br/><br/>

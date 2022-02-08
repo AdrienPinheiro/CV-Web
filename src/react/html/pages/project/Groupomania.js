@@ -15,7 +15,7 @@ const Groupomania = () => {
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/groupomania.png" alt="Projet 7"/>
+                <img src="./img/groupomania.png" alt="Projet 7"/>
                 <p>
                 Groupomania était le dernier et le plus gros projet. Nous devions faire le back grâce à ceux que nous avions appris lors du dernier projet 
                 tout en rajoutant un framework. Le choix était libre donc je suis parti sur React.JS puisque j'avais pour objectif de créer des applications plus tard,

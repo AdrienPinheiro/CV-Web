@@ -15,7 +15,7 @@ const Chouette = () => {
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/chouette.png" alt="Projet 4"/>
+                <img src="./img/chouette.png" alt="Projet 4"/>
                 <p>
                 Ce projet était un peu spécial. <br/>
                 Nous devions passer derrière le travail d'un autre developpeur et optimiser le site web.<br/>

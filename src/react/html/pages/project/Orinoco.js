@@ -15,7 +15,7 @@ const Orinoco = () => {
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/orinoco.png" alt="Projet 5"/>
+                <img src="./img/orinoco.png" alt="Projet 5"/>
                 <p>
                 L'objectif de ce projet était de créer un site e-commerce, enfin plus de travailler l'échange avec une API plutôt que de ce focaliser
                 sur l'apparence !<br/><br/>

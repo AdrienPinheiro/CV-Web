@@ -15,7 +15,7 @@ const Reservia = () => {
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/reservia.png" alt="Projet 2"/>
+                <img src="./img/reservia.png" alt="Projet 2"/>
                 <p>
                 Dans ce projet, nous commençons enfin à coder ! Nous apprennons les bases en HTML5 et CSS3.<br/><br/>
                 Nous avons eu une maquette fournis avec des demandes particulières comme :<br/><br/>
