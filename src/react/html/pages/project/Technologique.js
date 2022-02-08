@@ -15,7 +15,7 @@ const Technologique = () => {
                 </div>
             </div>
             <div className="project-body">
-                <img src="./../../img//twitter.png" alt="Projet 1"/>
+                <img src="./img//twitter.png" alt="Projet 1"/>
                 <p>
                 Dans ce projet, nous devions préparer les bases de notre formation. <br/>
                 Nous nous sommes renseigné sur le métier, regarder des témoignages, et vu le quotidien d'un développeur web. <br/><br/>

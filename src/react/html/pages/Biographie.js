@@ -5,7 +5,7 @@ const Biographie = () => {
     return(
         <div className="biographie">
             <div className="profil">
-                <a href="https://openclassrooms.com/fr/paths/556-developpeur-web#path-tabs" target="_blank" rel="noreferrer"><img src="./img/formationopenclassrooms.png" alt="formation OpenClassrooms"/></a>
+                <a href="https://openclassrooms.com/fr/paths/556-developpeur-web#path-tabs" target="_blank" rel="noreferrer"><img src="./img/formation-open-classrooms.png" alt="formation OpenClassrooms"/></a>
                 <div className="column">
                     <h2>Parcours</h2>
                     <p>
