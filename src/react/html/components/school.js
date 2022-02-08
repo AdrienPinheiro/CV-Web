@@ -17,7 +17,7 @@ const School = () => {
                         <div className="bottom-card-school-first">
                             <p>Option Lele: Littérature étrangère en langue étrangère.
                                 <br/>
-                                Concours de défense et illustratio de la langue française de l'AMOPA:<br/>
+                                Concours de défense et illustration de la langue française de l'AMOPA:<br/>
                                 - 2ème place au prix national de la jeune poésie.<br/>
                                 - 2ème place au prix national "Nous l'Europe".
                             </p>
