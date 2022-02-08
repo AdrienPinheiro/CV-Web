@@ -8,16 +8,18 @@ const School = () => {
         <section>
             <div className="school">
                 <NavLink exact to="/mes-formations" className="arrow"><i className="fas fa-arrow-left"/></NavLink>
-                <h3>Formation scolaires</h3>
+                <h3>Formation scolaire</h3>
                     <div className="card-school-first">
                         <div className="top-card-school-first">
                             <i className="fas fa-arrow-circle-down"/>
                             <p>Baccalauréat littéraire - 2017</p>
                         </div>
                         <div className="bottom-card-school-first">
-                            <p>Après une tentative d'étude en droit, je me décide de travailler pour avoir des économies le temps de trouver une idée de quoi faire.
+                            <p>Option Lele: Littérature étrangère en langue étrangère.
                                 <br/>
-                                J'effectu alors plusieurs mission d'intérim dans le bâtiment: livraison, etc..
+                                Concours de défense et illustratio de la langue française de l'AMOPA:<br/>
+                                - 2ème place au prix national de la jeune poésie.<br/>
+                                - 2ème place au prix national "Nous l'Europe".
                             </p>
                         </div> 
                     </div>
@@ -27,9 +29,9 @@ const School = () => {
                             <p>Développeur web et web mobile</p>
                         </div>
                         <div className="bottom-card-school-second">
-                            <p>Formation effectué avec OpenClassrooms en distanciel.
+                            <p>Formation effectuée avec OpenClassrooms en distanciel.
                                 <br/>
-                                Suivis par un mentor avec un rendez-vous hebdomadaire, j'ai du rendre 7 projets évalués pour pouvoir obtenir mon titre RNCP.
+                                Suivi par un mentor avec un rendez-vous hebdomadaire, j'ai dû rendre 7 projets évalués pour pouvoir obtenir mon titre RNCP.
                             </p>
                             <div className="frise">
                                 <ol>
@@ -92,7 +94,7 @@ const School = () => {
                                         <div className="groupomania">
                                             <time>28 Août 2021</time>
                                             <br/>
-                                            groupomania
+                                            Groupomania
                                         </div>
                                         </NavLink>
                                     </li>

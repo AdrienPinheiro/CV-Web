@@ -25,10 +25,9 @@ const Groupomania = () => {
                 - La création d’un compte devait être simple et possible depuis un téléphone mobile.<br/>
                 - Le profil devait contenir très peu d’informations pour que sa complétion soit rapide.<br/>
                 - La suppression du compte devait être possible.<br/>
-                - L’accès à un forum où les salariés publient des contenus multimédias devait être présent.<br/>
-                - L’accès à un forum où les salariés publient des textes devait être présent.<br/>
-                - Les utilisateurs doivaient pouvoir facilement repérer les dernières participations des employés.<br/>
-                - Le ou la chargé-e de communication Groupomania devait pouvoir modérer les interactions entre salariés.
+                - L’accès à un forum où les salariés publient des textes et contenus multimédias devaient être présents.<br/>
+                - Les utilisateurs devaient pouvoir facilement repérer les dernières participations des employés.<br/>
+                - Le chargé de communication Groupomania devait pouvoir modérer les interactions entre salariés.
                 </p>
             </div>
             <div className="project-footer">

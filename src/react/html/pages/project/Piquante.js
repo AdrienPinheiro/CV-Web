@@ -17,16 +17,16 @@ const Piquante = () => {
             <div className="project-body">
                 <img src="./img/piquante.png" alt="Projet 6"/>
                 <p>
-                Dans ce projet, nous devions créer une api et donc apprendre à faire du back pour la première fois ! <br/><br/>
+                Dans ce projet, nous devions créer une API et donc apprendre à faire du back pour la première fois ! <br/><br/>
                 Nous avions plusieurs consignes:<br/><br/>
                 - L’API doit respecter le RGPD et les standards OWASP.<br/>
                 - Le mot de passe des utilisateurs devait être chiffré.<br/>
-                - 2 types de droits administrateur à la base de données doivaient être définis : un accès pour supprimer ou modifier des tables, 
+                - 2 types de droits administrateur à la base de données devaient être définis : un accès pour supprimer ou modifier des tables, 
                 et un accès pour éditer le contenu de la base de données.<br/>
                 - La sécurité de la base de données MongoDB (à partir d’un service tel que MongoDB Atlas) devait être faite de telle sorte que le validateur 
                 puisse lancer l’application depuis sa machine.<br/>
                 - L’authentification était renforcée sur les routes requises.<br/>
-                - les adresses mails de la base de données étaient uniques et un plugin Mongoose approprié était utilisé pour s’assurer de leur caractère unique 
+                - Les adresses mails de la base de données étaient uniques et un plugin Mongoose approprié était utilisé pour s’assurer de leur caractère unique 
                 et rapporter des erreurs.
                 </p>
             </div>

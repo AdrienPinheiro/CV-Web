@@ -25,7 +25,7 @@ const Formation = () => {
             <NavLink exact to="/scolaires">
                 <div className="card-formation-school">
                     <div className="top-card-formation-school">
-                        <h2>Scolaires</h2>
+                        <h2>Scolaire</h2>
                     </div>
                     <div className="bottom-card-formation-school">
                             <ul>
