@@ -17,7 +17,7 @@ const School = () => {
                         <div className="bottom-card-school-first">
                             <p>Après une tentative d'étude en droit, je me décide de travailler pour avoir des économies le temps de trouver une idée de quoi faire.
                                 <br/>
-                                J'effectu alors plusieurs mission d'intérim dans le bâtiment: livraison, etc...
+                                J'effectu alors plusieurs mission d'intérim dans le bâtiment: livraison, etc..
                             </p>
                         </div> 
                     </div>
