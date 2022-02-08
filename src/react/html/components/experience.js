@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { NavLink } from "react-router-dom";
 
@@ -7,11 +7,11 @@ const Experience = () => {
     return (
         <section>
             <div className="formations">
-                <NavLink exact to="/mes-formations"><i class="fas fa-arrow-left"/></NavLink>
+                <NavLink exact to="/mes-formations"><i className="fas fa-arrow-left"/></NavLink>
                 <h3>Expériences professionnelles</h3>
                         <div className="card-formation-first">
                             <div className="top-card-formation-first">
-                                <i class="fas fa-arrow-circle-down"/>
+                                <i className="fas fa-arrow-circle-down"/>
                                 <p>Intérim dans le bâtiment - 2017</p>
                             </div>
                             <div className="bottom-card-formation-first">
@@ -23,7 +23,7 @@ const Experience = () => {
                         </div>
                         <div className="card-formation-first">
                             <div className="top-card-formation-first">
-                                <i class="fas fa-arrow-circle-down"/>
+                                <i className="fas fa-arrow-circle-down"/>
                                 <p>Caissier - 2017</p>
                             </div>
                             <div className="bottom-card-formation-first">
@@ -34,7 +34,7 @@ const Experience = () => {
                         </div>
                         <div className="card-formation-second">
                             <div className="top-card-formation-second">
-                                <i class="fas fa-arrow-circle-down"/>
+                                <i className="fas fa-arrow-circle-down"/>
                                 <p>Service civique - 2018</p>
                             </div>
                             <div className="bottom-card-formation-second">
@@ -47,7 +47,7 @@ const Experience = () => {
                         </div>
                         <div className="card-formation-second">
                             <div className="top-card-formation-second">
-                                <i class="fas fa-arrow-circle-down"/>
+                                <i className="fas fa-arrow-circle-down"/>
                                 <p>Animateur - 2018 / 2020</p>
                             </div>
                             <div className="bottom-card-formation-second">

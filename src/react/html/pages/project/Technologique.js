@@ -8,14 +8,14 @@ const Technologique = () => {
 
         <div className="project">
             <div className="project-header">
-                <NavLink exact to="/scolaires" className="arrow"><i class="fas fa-arrow-left"/></NavLink>
+                <NavLink exact to="/scolaires" className="arrow"><i className="fas fa-arrow-left"/></NavLink>
                 <div className="project-header-title">
                     <h3>Projet 1:</h3>
                     <h4>Veille technologique</h4>
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/twitter.png"/>
+                <img src="./img/project/twitter.png" alt="Projet 1"/>
                 <p>
                 Dans ce projet, nous devions préparer les bases de notre formation. <br/>
                 Nous nous sommes renseigné sur le métier, regarder des témoignages, et vu le quotidien d'un développeur web. <br/><br/>

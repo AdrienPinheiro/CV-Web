@@ -8,14 +8,14 @@ const Piquante = () => {
 
         <div className="project">
             <div className="project-header">
-                <NavLink exact to="/scolaires" className="arrow"><i class="fas fa-arrow-left"/></NavLink>
+                <NavLink exact to="/scolaires" className="arrow"><i className="fas fa-arrow-left"/></NavLink>
                 <div className="project-header-title">
                     <h3>Projet 6:</h3>
                     <h4>Piquante</h4>
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/piquante.png"/>
+                <img src="./img/project/piquante.png" alt="Projet 6"/>
                 <p>
                 Dans ce projet, nous devions créer une api et donc apprendre à faire du back pour la première fois ! <br/><br/>
                 Nous avions plusieurs consignes:<br/><br/>
@@ -33,7 +33,7 @@ const Piquante = () => {
             <div className="project-footer">
                 <h4>Liens utiles:</h4>
                 <div className="project-footer-github">
-                    <a href="https://github.com/AdrienPinheiro/AdrienPinheiro.Piquante" target="_blank"><i class="fab fa-github-square"/></a>
+                    <a href="https://github.com/AdrienPinheiro/AdrienPinheiro.Piquante" target="_blank" rel="noreferrer"><i className="fab fa-github-square"/></a>
                     <h5>Code Github</h5>
                 </div>
             </div>

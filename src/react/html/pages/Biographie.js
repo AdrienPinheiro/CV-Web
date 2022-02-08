@@ -5,7 +5,7 @@ const Biographie = () => {
     return(
         <div className="biographie">
             <div className="profil">
-                <a href="https://openclassrooms.com/fr/paths/556-developpeur-web#path-tabs" target="_blank"><img src="./img/formationopenclassrooms.png"/></a>
+                <a href="https://openclassrooms.com/fr/paths/556-developpeur-web#path-tabs" target="_blank" rel="noreferrer"><img src="./../img/formationopenclassrooms.png" alt="formation OpenClassrooms"/></a>
                 <div className="column">
                     <h2>Parcours</h2>
                     <p>
@@ -41,10 +41,10 @@ const Biographie = () => {
                     </p>
                 </div>
                 <div className="bottom-card-biographie">
-                    <a href="./img/different-menu-parasyte.png" target="_blank"><img src="./img/different-menu-parasyte.png"/></a>
-                    <a href="./img/forum-parasyte.png" target="_blank"><img src="./img/forum-parasyte.png"/></a>
-                    <a href="./img/pre-header-parasyte.png" target="_blank"><img src="./img/pre-header-parasyte.png"/></a>
-                    <a href="./img/carte-parasyte.jpg" target="_blank"><img src="./img/carte-parasyte.jpg"/></a>
+                    <a href="./img/different-menu-parasyte.png" target="_blank" rel="noreferrer"><img src="./img/different-menu-parasyte.png" alt="Menu site personnel"/></a>
+                    <a href="./img/forum-parasyte.png" target="_blank" rel="noreferrer"><img src="./img/forum-parasyte.png" alt="Forum site personnel"/></a>
+                    <a href="./img/pre-header-parasyte.png" target="_blank" rel="noreferrer"><img src="./img/pre-header-parasyte.png" alt="Header site personnel"/></a>
+                    <a href="./img/carte-parasyte.jpg" target="_blank" rel="noreferrer"><img src="./img/carte-parasyte.jpg" alt="Carte site personnel"/></a>
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@ const Formation = () => {
                                 <li>- Service civique - 2018</li>
                                 <li>- Animateur - 2018 / 2020</li>
                             </ul>
-                            <i class="fas fa-arrow-circle-right"/>
+                            <i className="fas fa-arrow-circle-right"/>
                         </div>
                 </div>
             </NavLink>
@@ -32,7 +32,7 @@ const Formation = () => {
                                 <li>- Baccalauréat littéraire - 2017</li>
                                 <li>- Développeur web et web mobile - 2020</li>
                             </ul>
-                            <i class="fas fa-arrow-circle-right"/>
+                            <i className="fas fa-arrow-circle-right"/>
                         </div>
                 </div>
             </NavLink>

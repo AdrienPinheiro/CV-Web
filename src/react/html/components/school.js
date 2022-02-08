@@ -7,11 +7,11 @@ const School = () => {
     return (
         <section>
             <div className="school">
-                <NavLink exact to="/mes-formations" className="arrow"><i class="fas fa-arrow-left"/></NavLink>
+                <NavLink exact to="/mes-formations" className="arrow"><i className="fas fa-arrow-left"/></NavLink>
                 <h3>Formation scolaires</h3>
                     <div className="card-school-first">
                         <div className="top-card-school-first">
-                            <i class="fas fa-arrow-circle-down"/>
+                            <i className="fas fa-arrow-circle-down"/>
                             <p>Baccalauréat littéraire - 2017</p>
                         </div>
                         <div className="bottom-card-school-first">
@@ -23,7 +23,7 @@ const School = () => {
                     </div>
                     <div className="card-school-second">
                         <div className="top-card-school-second">
-                            <i class="fas fa-arrow-circle-down"/>
+                            <i className="fas fa-arrow-circle-down"/>
                             <p>Développeur web et web mobile</p>
                         </div>
                         <div className="bottom-card-school-second">

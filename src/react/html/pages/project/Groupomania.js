@@ -8,14 +8,14 @@ const Groupomania = () => {
 
         <div className="project">
             <div className="project-header">
-                <NavLink exact to="/scolaires" className="arrow"><i class="fas fa-arrow-left"/></NavLink>
+                <NavLink exact to="/scolaires" className="arrow"><i className="fas fa-arrow-left"/></NavLink>
                 <div className="project-header-title">
                     <h3>Projet 7:</h3>
                     <h4>Groupomania</h4>
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/groupomania.png"/>
+                <img src="./img/project/groupomania.png" alt="Projet 7"/>
                 <p>
                 Groupomania était le dernier et le plus gros projet. Nous devions faire le back grâce à ceux que nous avions appris lors du dernier projet 
                 tout en rajoutant un framework. Le choix était libre donc je suis parti sur React.JS puisque j'avais pour objectif de créer des applications plus tard,
@@ -34,7 +34,7 @@ const Groupomania = () => {
             <div className="project-footer">
                 <h4>Liens utiles:</h4>
                 <div className="project-footer-github">
-                    <a href="https://github.com/AdrienPinheiro/AdrienPinheiro.Groupomania" target="_blank"><i class="fab fa-github-square"/></a>
+                    <a href="https://github.com/AdrienPinheiro/AdrienPinheiro.Groupomania" target="_blank" rel="noreferrer"><i className="fab fa-github-square"/></a>
                     <h5>Code Github</h5>
                 </div>
             </div>

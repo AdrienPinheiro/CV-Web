@@ -8,14 +8,14 @@ const Orinoco = () => {
 
         <div className="project">
             <div className="project-header">
-                <NavLink exact to="/scolaires" className="arrow"><i class="fas fa-arrow-left"/></NavLink>
+                <NavLink exact to="/scolaires" className="arrow"><i className="fas fa-arrow-left"/></NavLink>
                 <div className="project-header-title">
                     <h3>Projet 5:</h3>
                     <h4>Orinoco</h4>
                 </div>
             </div>
             <div className="project-body">
-                <img src="./img/project/orinoco.png"/>
+                <img src="./img/project/orinoco.png" alt="Projet 5"/>
                 <p>
                 L'objectif de ce projet était de créer un site e-commerce, enfin plus de travailler l'échange avec une API plutôt que de ce focaliser
                 sur l'apparence !<br/><br/>
@@ -33,7 +33,7 @@ const Orinoco = () => {
             <div className="project-footer">
                 <h4>Liens utiles:</h4>
                 <div className="project-footer-github">
-                    <a href="https://github.com/AdrienPinheiro/AdrienPinheiro.Orinoco" target="_blank"><i class="fab fa-github-square"/></a>
+                    <a href="https://github.com/AdrienPinheiro/AdrienPinheiro.Orinoco" target="_blank" rel="noreferrer"><i className="fab fa-github-square"/></a>
                     <h5>Code Github</h5>
                 </div>
             </div>
