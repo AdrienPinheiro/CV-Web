@@ -29,6 +29,7 @@
         background-color: $primary;
         color: $white;
         padding-top: 25px;
+        animation: opacity 3s;
         .top-card-school-first{
             display: flex;
             align-items: center;
@@ -48,6 +49,7 @@
         width: $col11;
         background-color: $white;
         padding-top: 30px;
+        animation: moveUp 1s;
         .top-card-school-second{
             display: flex;
             align-items: center;
@@ -143,7 +145,7 @@
                                 background-size: cover;
                             }
                             .orinico{
-                                background-image: url("./../img/orinoco2.PNG");
+                                background-image: url("./../img/orinoco.PNG");
                                 background-size: cover;
                             }
                             .piquante{

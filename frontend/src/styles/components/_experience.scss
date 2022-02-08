@@ -22,6 +22,7 @@
         width: $col11;
         background-color: $primary;
         color: $white;
+        animation: moveLeft 1s;
         .top-card-formation-first{
             display: flex;
             align-items: center;
@@ -38,6 +39,7 @@
         height: 200px;
         width: $col11;
         background-color: $white;
+        animation: moveRight 1s;
         .top-card-formation-second{
             display: flex;
             align-items: center;

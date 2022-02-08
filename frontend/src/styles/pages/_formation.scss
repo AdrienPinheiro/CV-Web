@@ -57,6 +57,7 @@
                     color: $primary;
                     width: $col5;
                     text-align: center;
+                    animation: formationTop 0.5s;
                 }
                 .bottom-card-formation-experience{
                     display: block;
@@ -67,6 +68,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    animation: experiencesBottom 1s;
                     ul{
                         li{
                             color: $white;
@@ -87,6 +89,7 @@
                 .top-card-formation-school{
                     width: $col5;
                     text-align: center;
+                    animation: formationTop 0.5s;
                 }
                 .bottom-card-formation-school{
                     display: block;
@@ -97,6 +100,7 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    animation: schoolBottom 1s;
                     ul{
                         li{
                             color: $primary;

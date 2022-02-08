@@ -4,7 +4,7 @@
         margin: 80px 0;
         justify-content: space-around;
         align-items: center;
-        
+        animation: appearanceBio 2s;
         a{
             width: $col4;
             img{
@@ -30,7 +30,7 @@
         margin: 75px 0;
         justify-content: space-around;
         align-items: center;
-        
+        animation: appearanceBio 3s;
         .top-card-biographie{
             width: $col7;
             h2{

@@ -41,7 +41,10 @@
         }
         p{
             width: $col5;
-            padding-left: 30px;
+            margin-left: 3%;
+            padding: 10px;
+            height: $col12;
+            background-color: $white;
         }
     }
     .project-footer{
@@ -49,7 +52,7 @@
         flex-wrap: wrap;
         justify-content: center;
         justify-content: space-around;
-        width: $col3;
+        width: $col4;
         padding-bottom: 30px;
         border-bottom: 1px solid black;
         h4{

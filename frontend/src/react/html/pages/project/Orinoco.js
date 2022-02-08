@@ -18,11 +18,11 @@ const Orinoco = () => {
                 <img src="./img/project/orinoco.png"/>
                 <p>
                 L'objectif de ce projet était de créer un site e-commerce, enfin plus de travailler l'échange avec une API plutôt que de ce focaliser
-                sur l'apparence !<br/>
-                Le site était composé de 4 pages:<br/>
-                - Une page de vue sous forme de liste, montrant tous les articles disponibles à la vente.
+                sur l'apparence !<br/><br/>
+                Le site était composé de 4 pages:<br/><br/>
+                - Une page de vue sous forme de liste, montrant tous les articles disponibles à la vente.<br/>
                 - Une page “produit”, qui affiche de manière dynamique l'élément sélectionné par l'utilisateur et lui permettait de personnaliser le produit 
-                et de l'ajouter à son panier.
+                et de l'ajouter à son panier.<br/>
                 - une page “panier” contenant un résumé des produits dans le panier, le prix total et un formulaire permettant de passer une commande. 
                 Les données du formulaire doivaient être correctes et bien formatées avant d'être renvoyées au back-end. 
                 Par exemple, pas de texte dans les champs date. <br/>

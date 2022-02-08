@@ -33,6 +33,224 @@ li {
   list-style: none;
 }
 
+@-webkit-keyframes appearanceBio {
+  from {
+    -webkit-transform: translateY(500px);
+            transform: translateY(500px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes appearanceBio {
+  from {
+    -webkit-transform: translateY(500px);
+            transform: translateY(500px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes experiencesBottom {
+  from {
+    background-color: #FFFFFF;
+  }
+  to {
+    background-color: #0ebca5;
+  }
+}
+
+@keyframes experiencesBottom {
+  from {
+    background-color: #FFFFFF;
+  }
+  to {
+    background-color: #0ebca5;
+  }
+}
+
+@-webkit-keyframes formationTop {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 41.66%;
+  }
+}
+
+@keyframes formationTop {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 41.66%;
+  }
+}
+
+@-webkit-keyframes schoolBottom {
+  from {
+    background-color: #0ebca5;
+  }
+  to {
+    background-color: #FFFFFF;
+  }
+}
+
+@keyframes schoolBottom {
+  from {
+    background-color: #0ebca5;
+  }
+  to {
+    background-color: #FFFFFF;
+  }
+}
+
+@-webkit-keyframes moveLeft {
+  from {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes moveLeft {
+  from {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes moveRight {
+  from {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes moveRight {
+  from {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes moveUp {
+  from {
+    -webkit-transform: translateY(500px);
+            transform: translateY(500px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes moveUp {
+  from {
+    -webkit-transform: translateY(500px);
+            transform: translateY(500px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes contact {
+  0% {
+    -webkit-transform: scale(1) rotate(0);
+            transform: scale(1) rotate(0);
+  }
+  20% {
+    -webkit-transform: scale(1.2) rotate(10deg);
+            transform: scale(1.2) rotate(10deg);
+  }
+  40% {
+    -webkit-transform: scale(1.2) rotate(-10deg);
+            transform: scale(1.2) rotate(-10deg);
+  }
+  60% {
+    -webkit-transform: scale(1.2) rotate(10deg);
+            transform: scale(1.2) rotate(10deg);
+  }
+  80% {
+    -webkit-transform: scale(1.2) rotate(-10deg);
+            transform: scale(1.2) rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+            transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes contact {
+  0% {
+    -webkit-transform: scale(1) rotate(0);
+            transform: scale(1) rotate(0);
+  }
+  20% {
+    -webkit-transform: scale(1.2) rotate(10deg);
+            transform: scale(1.2) rotate(10deg);
+  }
+  40% {
+    -webkit-transform: scale(1.2) rotate(-10deg);
+            transform: scale(1.2) rotate(-10deg);
+  }
+  60% {
+    -webkit-transform: scale(1.2) rotate(10deg);
+            transform: scale(1.2) rotate(10deg);
+  }
+  80% {
+    -webkit-transform: scale(1.2) rotate(-10deg);
+            transform: scale(1.2) rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate(0);
+            transform: scale(1) rotate(0);
+  }
+}
+
 .home {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,6 +306,8 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: appearanceBio 2s;
+          animation: appearanceBio 2s;
 }
 
 .biographie .profil a {
@@ -125,6 +345,8 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: appearanceBio 3s;
+          animation: appearanceBio 3s;
 }
 
 .biographie .objectif .top-card-biographie {
@@ -258,6 +480,8 @@ li {
   color: #0ebca5;
   width: 41.66%;
   text-align: center;
+  -webkit-animation: formationTop 0.5s;
+          animation: formationTop 0.5s;
 }
 
 .formation a:hover .card-formation-experience .bottom-card-formation-experience {
@@ -275,6 +499,8 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: experiencesBottom 1s;
+          animation: experiencesBottom 1s;
 }
 
 .formation a:hover .card-formation-experience .bottom-card-formation-experience ul li {
@@ -303,6 +529,8 @@ li {
 .formation a:hover .card-formation-school .top-card-formation-school {
   width: 41.66%;
   text-align: center;
+  -webkit-animation: formationTop 0.5s;
+          animation: formationTop 0.5s;
 }
 
 .formation a:hover .card-formation-school .bottom-card-formation-school {
@@ -320,6 +548,8 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: schoolBottom 1s;
+          animation: schoolBottom 1s;
 }
 
 .formation a:hover .card-formation-school .bottom-card-formation-school ul li {
@@ -352,6 +582,11 @@ li {
 .contact .contact-message h2 {
   color: #FFFFFF;
   font-size: 40px;
+}
+
+.contact .contact-message h2:hover {
+  -webkit-animation: contact 1s;
+          animation: contact 1s;
 }
 
 .contact .formulaire {
@@ -430,6 +665,8 @@ header .header .first-part-header h1 {
 
 header .header .first-part-header h1:hover {
   color: #0ebca5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 header .header .second-part-header {
@@ -567,7 +804,10 @@ footer p {
 
 .project .project-body p {
   width: 41.66%;
-  padding-left: 30px;
+  margin-left: 3%;
+  padding: 10px;
+  height: 100%;
+  background-color: #FFFFFF;
 }
 
 .project .project-footer {
@@ -581,7 +821,7 @@ footer p {
           justify-content: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 25%;
+  width: 33.33%;
   padding-bottom: 30px;
   border-bottom: 1px solid black;
 }
@@ -645,6 +885,8 @@ footer p {
   width: 91.66%;
   background-color: #0ebca5;
   color: #FFFFFF;
+  -webkit-animation: moveLeft 1s;
+          animation: moveLeft 1s;
 }
 
 .formations .card-formation-first .top-card-formation-first {
@@ -669,6 +911,8 @@ footer p {
   height: 200px;
   width: 91.66%;
   background-color: #FFFFFF;
+  -webkit-animation: moveRight 1s;
+          animation: moveRight 1s;
 }
 
 .formations .card-formation-second .top-card-formation-second {
@@ -734,6 +978,8 @@ footer p {
   background-color: #0ebca5;
   color: #FFFFFF;
   padding-top: 25px;
+  -webkit-animation: opacity 3s;
+          animation: opacity 3s;
 }
 
 .school .card-school-first .top-card-school-first {
@@ -768,6 +1014,8 @@ footer p {
   width: 91.66%;
   background-color: #FFFFFF;
   padding-top: 30px;
+  -webkit-animation: moveUp 1s;
+          animation: moveUp 1s;
 }
 
 .school .card-school-second .top-card-school-second {
@@ -897,7 +1145,7 @@ footer p {
 }
 
 .school .card-school-second .bottom-card-school-second .frise ol li a:hover .orinico {
-  background-image: url("./../img/orinoco2.PNG");
+  background-image: url("./../img/orinoco.PNG");
   background-size: cover;
 }
 

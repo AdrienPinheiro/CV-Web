@@ -19,8 +19,8 @@ const Groupomania = () => {
                 <p>
                 Groupomania était le dernier et le plus gros projet. Nous devions faire le back grâce à ceux que nous avions appris lors du dernier projet 
                 tout en rajoutant un framework. Le choix était libre donc je suis parti sur React.JS puisque j'avais pour objectif de créer des applications plus tard,
-                et j'avais entendu parler de React Native.<br/>
-                Nous avions aussi plusieurs spécifications fonctionnelles:<br/>
+                et j'avais entendu parler de React Native.<br/><br/>
+                Nous avions aussi plusieurs spécifications fonctionnelles:<br/><br/>
                 - La présentation des fonctionnalités devait être simple.<br/>
                 - La création d’un compte devait être simple et possible depuis un téléphone mobile.<br/>
                 - Le profil devait contenir très peu d’informations pour que sa complétion soit rapide.<br/>

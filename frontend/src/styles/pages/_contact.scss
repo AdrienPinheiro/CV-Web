@@ -9,6 +9,9 @@
         h2{
             color: $white;
             font-size: 40px;
+            &:hover{
+                animation: contact 1s;
+            }
         }
     }
     .formulaire{

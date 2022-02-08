@@ -18,9 +18,9 @@ const Technologique = () => {
                 <img src="./img/project/twitter.png"/>
                 <p>
                 Dans ce projet, nous devions préparer les bases de notre formation. <br/>
-                Nous nous sommes renseigné sur le métier, regarder des témoignages, et vu le quotidien d'un développeur web. <br/>
+                Nous nous sommes renseigné sur le métier, regarder des témoignages, et vu le quotidien d'un développeur web. <br/><br/>
                 De plus, le projet consistait surtout à mettre en place un moyen de se renseigner sur les nouveautés lié aux langages de code ou encore
-                sur les technologiques lié à l'ordinateur. Cela nous permet de rester à jour des nouveautés et de ne cesser d'apprendre. <br/>
+                sur les technologiques lié à l'ordinateur. Cela nous permet de rester à jour des nouveautés et de ne cesser d'apprendre. <br/><br/>
                 Pour cela, j'ai utilisé twitter comme base pour suivre des groupes correspondants à mes recherches ou encore des personnalités influentes
                 qui relais des informations.
                 Pour finir, nous avons aussi utilisé d'autre site annexe pour completer cette veille technologique: Medium, Presse citron, Reddit, HackersNew,

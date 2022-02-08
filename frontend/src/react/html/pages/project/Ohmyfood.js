@@ -17,7 +17,8 @@ const Ohmyfood = () => {
             <div className="project-body">
                 <img src="./img/project/ohmyfood.png"/>
                 <p>Dans ce nouveau projet, nous apprenions le responsive. Nous devions fire un site web d'une startup qui voulait s'imposer sur le marché de la
-                    restaurations. Pour cela nous devions:<br/>
+                    restaurations.<br/><br/>
+                    Pour cela nous devions :<br/><br/>
                     - Respecter une identité graphique (police / logo / titre / couleur)<br/>
                     - Ne pas utiliser de framework. <br/>
                     - Utiliser des effets accessibles au clic ou au survol sur la maquette. Ils devaient utiliser

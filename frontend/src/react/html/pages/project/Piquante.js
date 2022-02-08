@@ -17,8 +17,8 @@ const Piquante = () => {
             <div className="project-body">
                 <img src="./img/project/piquante.png"/>
                 <p>
-                Dans ce projet, nous devions créer une api et donc apprendre à faire du back pour la première fois ! <br/>
-                Nous avions plusieurs consignes:<br/>
+                Dans ce projet, nous devions créer une api et donc apprendre à faire du back pour la première fois ! <br/><br/>
+                Nous avions plusieurs consignes:<br/><br/>
                 - L’API doit respecter le RGPD et les standards OWASP.<br/>
                 - Le mot de passe des utilisateurs devait être chiffré.<br/>
                 - 2 types de droits administrateur à la base de données doivaient être définis : un accès pour supprimer ou modifier des tables, 

@@ -17,8 +17,8 @@ const Reservia = () => {
             <div className="project-body">
                 <img src="./img/project/reservia.png"/>
                 <p>
-                Dans ce projet, nous commençons enfin à coder ! Nous apprennons les bases en HTML5 et CSS3.<br/>
-                Nous avons eu une maquette fournis avec des demandes particulières comme:<br/>
+                Dans ce projet, nous commençons enfin à coder ! Nous apprennons les bases en HTML5 et CSS3.<br/><br/>
+                Nous avons eu une maquette fournis avec des demandes particulières comme :<br/><br/>
                 - Les usagers pourront rechercher des hébergements dans la ville de leur choix. En
                 revanche le bouton de recherche ne sera pas fonctionnel. <br/>
                 - Chaque carte d’hébergement ou d’activité devait être cliquable dans son intégralité mais 
