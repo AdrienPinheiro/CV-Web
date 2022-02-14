@@ -8,6 +8,16 @@
         top: 130px;
         left: 150px;
         font-size: 30px;
+        @include tablette{
+            left: 80px;
+        }
+        @include phone{
+            top: 180px;
+            left: 50px;
+        }
+        @include little-phone{
+            left: 30px;
+        }
     }
     h3{
         text-align: center;
@@ -18,7 +28,7 @@
         color: $primary;
     }
     .card-formation-first{
-        height: 200px;
+        height: auto;
         width: $col11;
         background-color: $primary;
         color: $white;
@@ -28,15 +38,24 @@
             align-items: center;
             i{
                 padding: 0 15px 0 200px;
+                @include tablette{
+                    padding: 0 15px 0 10px;
+                }
             }
         }
         .bottom-card-formation-first{
             margin: 20px 0;
             padding-left: 15%;
+            @include tablette{
+                padding-left: 30px;
+            }
+            @include little-phone{
+                font-size: 15px;
+            }
         }
     }
     .card-formation-second{
-        height: 230px;
+        height: auto;
         width: $col11;
         background-color: $white;
         animation: moveRight 1s;
@@ -45,11 +64,20 @@
             align-items: center;
             i{
                 padding: 0 15px 0 200px;
+                @include tablette{
+                    padding: 0 15px 0 10px;
+                }
             }
         }
         .bottom-card-formation-second{
             margin: 20px 0;
             padding-left: 15%;
+            @include tablette{
+                padding-left: 30px;
+            }
+            @include little-phone{
+                font-size: 15px;
+            }
         }
     }
 }

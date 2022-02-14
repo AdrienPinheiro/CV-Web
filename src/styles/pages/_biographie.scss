@@ -5,8 +5,17 @@
         justify-content: space-around;
         align-items: center;
         animation: appearanceBio 2s;
+        @include tablette{
+            flex-direction: column;
+        }
         a{
             width: $col4;
+            @include tablette{
+                width: $col8;
+            }
+            @include little-phone{
+                width: $col11;
+            }
             img{
                 width: $col12;
                 height: auto;
@@ -20,8 +29,18 @@
             width: $col7;
             padding-left: 20px;
             padding-top: 20px;
+            @include tablette{
+                width: $col8;
+            }
+            @include little-phone{
+                width: $col11;
+                font-size: 12px;
+            }
             p{
                 padding-left: 20px;
+                @include ecran{
+                    font-size: 15px;
+                }
             }
         }
     }
@@ -31,13 +50,29 @@
         justify-content: space-around;
         align-items: center;
         animation: appearanceBio 3s;
+        @include tablette{
+            flex-direction: column;
+        }
         .top-card-biographie{
             width: $col7;
+            @include tablette{
+                width: $col8;
+            }
+            @include little-phone{
+                width: $col11;
+                font-size: 12px;
+            }
+            @include ecran{
+                order: 1;
+            }
             h2{
                 padding-bottom: 25px;
             }
             p{
                 padding-left: 20px;
+                @include ecran{
+                    font-size: 15px;
+                }
             }
         }
         .bottom-card-biographie{
@@ -47,6 +82,12 @@
             justify-content: space-around;
             a {
                 width: $col5;
+                @include tablette{
+                    width: $col6;
+                }
+                @include little-phone{
+                    width: $col12;
+                }
                 img{
                     width: $col12;
                     height: auto;

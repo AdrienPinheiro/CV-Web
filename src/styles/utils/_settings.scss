@@ -27,7 +27,7 @@ $col12: 100%;
 // Breakpoint
 
 $breakpoint:(
-    mobile: 600px,
+    little-phone: 600px,
     phone: 800px,
     tablette: 1025px,
     ecran: 1285px,
@@ -35,19 +35,19 @@ $breakpoint:(
 
 // Mixin
 
-@mixin mobile-only {
-    @media screen and (max-width: map-get($breakpoint, mobile)){
+@mixin little-phone {
+    @media screen and (max-width: map-get($breakpoint, little-phone)){
         @content
     }
 };
 
-@mixin phone-only {
+@mixin phone {
     @media screen and (max-width: map-get($breakpoint, phone)) {
         @content
     }
 };
 
-@mixin tablette-only {
+@mixin tablette {
     @media screen and (max-width: map-get($breakpoint, tablette)) {
         @content
     }

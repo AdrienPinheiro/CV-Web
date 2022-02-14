@@ -23,19 +23,34 @@
         form{
             position: relative;
             left: -100px;
+            @include little-phone{
+                left: 0;
+            }
         }
         #email{
             width: 200%;
+            @include little-phone{
+                width: $col12;
+            }
         }
         #second_email{
             width: 200%;
+            @include little-phone{
+                width: $col12;
+            }
         }
         #sujet{
             width: 200%;
+            @include little-phone{
+                width: $col12;
+            }
         }
         #message{
             width: 200%;
             padding: 5px 5px 150px 5px;
+            @include little-phone{
+                width: $col12;
+            }
         }
         .btn-contact{
             position: relative;
@@ -48,6 +63,10 @@
             font-family: 'Lobster';
             font-size: 20px;
             border-radius: 10px;
+            @include little-phone{
+                width: $col12;
+                left: 0;
+            }
             &:hover{
                 cursor: pointer;
                 font-size: 25px;

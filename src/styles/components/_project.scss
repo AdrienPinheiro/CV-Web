@@ -25,6 +25,16 @@
             top: 130px;
             left: 100px;
             font-size: 30px;
+            @include tablette{
+                left: 80px;
+            }
+            @include phone{
+                top: 180px;
+                left: 50px;
+            }
+            @include little-phone{
+                left: 30px;
+            }
         }
     }
     .project-body{
@@ -34,10 +44,16 @@
         margin-bottom: 50px;
         justify-content: center;
         align-items: center;
+        @include ecran{
+            flex-direction: column;
+        }
         img{
             width: $col7;
             height: $col12;
             object-fit: cover;
+            @include ecran{
+                width: $col12;
+            }
         }
         p{
             width: $col5;
@@ -45,6 +61,13 @@
             padding: 10px;
             height: $col12;
             background-color: $white;
+            @include ecran{
+                width: $col11;
+                margin-top: 10px;
+            }
+            @include little-phone{
+                font-size: 15px;
+            }
         }
     }
     .project-footer{
@@ -55,6 +78,12 @@
         width: $col4;
         padding-bottom: 30px;
         border-bottom: 1px solid black;
+        @include ecran{
+            width: $col6;
+        }
+        @include phone{
+            width: $col12;
+        }
         h4{
             text-align: center;
             width: $col12;

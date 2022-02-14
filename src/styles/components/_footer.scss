@@ -7,6 +7,9 @@ footer{
         justify-content: center;
         ul{
             display: flex;
+            @include little-phone{
+                font-size: 12px;
+            }
             li{
                 padding-right: 25px;
                 font-size: 20px;
@@ -21,6 +24,9 @@ footer{
         justify-content: center;
         align-items: center;
         font-size: 15px;
+        @include little-phone{
+            font-size: 12px;
+        }
     }
 
 }

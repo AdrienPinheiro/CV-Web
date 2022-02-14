@@ -270,15 +270,52 @@ li {
   border: 5px solid #0ebca5;
 }
 
+@media screen and (max-width: 800px) {
+  .home .home-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1285px) {
+  .home .home-card {
+    width: 83.33%;
+  }
+}
+
 .home .home-card .home-card-top {
   padding: 50px 0;
   width: 83.33%;
+}
+
+@media screen and (max-width: 800px) {
+  .home .home-card .home-card-top {
+    width: auto;
+    text-align: center;
+    padding: 30px 0;
+  }
 }
 
 .home .home-card .home-card-top img {
   margin-left: 15%;
   width: 50%;
   border-radius: 5%;
+}
+
+@media screen and (max-width: 800px) {
+  .home .home-card .home-card-top img {
+    margin: 0;
+    width: 83.33%;
+  }
 }
 
 .home .home-card .home-card-bottom {
@@ -296,6 +333,30 @@ li {
   width: 66.66%;
 }
 
+@media screen and (max-width: 1285px) {
+  .home .home-card .home-card-bottom {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .home .home-card .home-card-bottom {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home .home-card .home-card-bottom {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home .home-card .home-card-bottom {
+    font-size: 20px;
+  }
+}
+
 .biographie .profil {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -310,8 +371,29 @@ li {
           animation: appearanceBio 2s;
 }
 
+@media screen and (max-width: 1025px) {
+  .biographie .profil {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .biographie .profil a {
   width: 33.33%;
+}
+
+@media screen and (max-width: 1025px) {
+  .biographie .profil a {
+    width: 66.66%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .biographie .profil a {
+    width: 91.66%;
+  }
 }
 
 .biographie .profil a img {
@@ -331,8 +413,27 @@ li {
   padding-bottom: 25px;
 }
 
+@media screen and (max-width: 1025px) {
+  .biographie .profil .column {
+    width: 66.66%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .biographie .profil .column {
+    width: 91.66%;
+    font-size: 12px;
+  }
+}
+
 .biographie .profil .column p {
   padding-left: 20px;
+}
+
+@media screen and (max-width: 1285px) {
+  .biographie .profil .column p {
+    font-size: 15px;
+  }
 }
 
 .biographie .objectif {
@@ -349,8 +450,38 @@ li {
           animation: appearanceBio 3s;
 }
 
+@media screen and (max-width: 1025px) {
+  .biographie .objectif {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .biographie .objectif .top-card-biographie {
   width: 58.33%;
+}
+
+@media screen and (max-width: 1025px) {
+  .biographie .objectif .top-card-biographie {
+    width: 66.66%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .biographie .objectif .top-card-biographie {
+    width: 91.66%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1285px) {
+  .biographie .objectif .top-card-biographie {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
 }
 
 .biographie .objectif .top-card-biographie h2 {
@@ -359,6 +490,12 @@ li {
 
 .biographie .objectif .top-card-biographie p {
   padding-left: 20px;
+}
+
+@media screen and (max-width: 1285px) {
+  .biographie .objectif .top-card-biographie p {
+    font-size: 15px;
+  }
 }
 
 .biographie .objectif .bottom-card-biographie {
@@ -374,6 +511,18 @@ li {
 
 .biographie .objectif .bottom-card-biographie a {
   width: 41.66%;
+}
+
+@media screen and (max-width: 1025px) {
+  .biographie .objectif .bottom-card-biographie a {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .biographie .objectif .bottom-card-biographie a {
+    width: 100%;
+  }
 }
 
 .biographie .objectif .bottom-card-biographie a img {
@@ -417,6 +566,15 @@ li {
           align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .formation a .card-formation-experience {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .formation a .card-formation-experience .top-card-formation-experience {
   color: #0ebca5;
   font-size: 30px;
@@ -445,6 +603,15 @@ li {
       -ms-flex-align: center;
           align-items: center;
   background-color: #0ebca5;
+}
+
+@media screen and (max-width: 600px) {
+  .formation a .card-formation-school {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .formation a .card-formation-school .top-card-formation-school {
@@ -476,12 +643,39 @@ li {
           align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .formation a:hover .card-formation-experience {
+    height: auto;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+  }
+}
+
 .formation a:hover .card-formation-experience .top-card-formation-experience {
   color: #0ebca5;
   width: 41.66%;
   text-align: center;
   -webkit-animation: formationTop 0.5s;
           animation: formationTop 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  .formation a:hover .card-formation-experience .top-card-formation-experience {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .formation a:hover .card-formation-experience .top-card-formation-experience h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .formation a:hover .card-formation-experience .top-card-formation-experience h2 {
+    padding: 10px 0;
+  }
 }
 
 .formation a:hover .card-formation-experience .bottom-card-formation-experience {
@@ -503,13 +697,38 @@ li {
           animation: experiencesBottom 1s;
 }
 
+@media screen and (max-width: 600px) {
+  .formation a:hover .card-formation-experience .bottom-card-formation-experience {
+    width: 91.66%;
+  }
+}
+
 .formation a:hover .card-formation-experience .bottom-card-formation-experience ul li {
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 800px) {
+  .formation a:hover .card-formation-experience .bottom-card-formation-experience ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .formation a:hover .card-formation-experience .bottom-card-formation-experience ul li {
+    font-size: 15px;
+  }
 }
 
 .formation a:hover .card-formation-experience .bottom-card-formation-experience i {
   padding-left: 50px;
   font-size: 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .formation a:hover .card-formation-experience .bottom-card-formation-experience i {
+    font-size: 40px;
+    padding-right: 20px;
+  }
 }
 
 .formation a:hover .card-formation-school {
@@ -526,11 +745,35 @@ li {
           align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .formation a:hover .card-formation-school {
+    height: auto;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+  }
+}
+
 .formation a:hover .card-formation-school .top-card-formation-school {
   width: 41.66%;
   text-align: center;
   -webkit-animation: formationTop 0.5s;
           animation: formationTop 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  .formation a:hover .card-formation-school .top-card-formation-school {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .formation a:hover .card-formation-school .top-card-formation-school h2 {
+    font-size: 30px;
+  }
 }
 
 .formation a:hover .card-formation-school .bottom-card-formation-school {
@@ -552,13 +795,38 @@ li {
           animation: schoolBottom 1s;
 }
 
+@media screen and (max-width: 600px) {
+  .formation a:hover .card-formation-school .bottom-card-formation-school {
+    width: 91.66%;
+  }
+}
+
 .formation a:hover .card-formation-school .bottom-card-formation-school ul li {
   color: #0ebca5;
+}
+
+@media screen and (max-width: 800px) {
+  .formation a:hover .card-formation-school .bottom-card-formation-school ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .formation a:hover .card-formation-school .bottom-card-formation-school ul li {
+    font-size: 15px;
+  }
 }
 
 .formation a:hover .card-formation-school .bottom-card-formation-school i {
   padding-left: 50px;
   font-size: 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .formation a:hover .card-formation-school .bottom-card-formation-school i {
+    font-size: 40px;
+    padding-right: 20px;
+  }
 }
 
 .contact {
@@ -608,21 +876,51 @@ li {
   left: -100px;
 }
 
+@media screen and (max-width: 600px) {
+  .contact .formulaire form {
+    left: 0;
+  }
+}
+
 .contact .formulaire #email {
   width: 200%;
+}
+
+@media screen and (max-width: 600px) {
+  .contact .formulaire #email {
+    width: 100%;
+  }
 }
 
 .contact .formulaire #second_email {
   width: 200%;
 }
 
+@media screen and (max-width: 600px) {
+  .contact .formulaire #second_email {
+    width: 100%;
+  }
+}
+
 .contact .formulaire #sujet {
   width: 200%;
+}
+
+@media screen and (max-width: 600px) {
+  .contact .formulaire #sujet {
+    width: 100%;
+  }
 }
 
 .contact .formulaire #message {
   width: 200%;
   padding: 5px 5px 150px 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .contact .formulaire #message {
+    width: 100%;
+  }
 }
 
 .contact .formulaire .btn-contact {
@@ -636,6 +934,13 @@ li {
   font-family: 'Lobster';
   font-size: 20px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .contact .formulaire .btn-contact {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .contact .formulaire .btn-contact:hover {
@@ -654,13 +959,49 @@ header .header {
   background-color: #FFFFFF;
 }
 
+@media screen and (max-width: 800px) {
+  header .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 150px;
+  }
+}
+
 header .header .first-part-header {
   width: 66.66%;
+}
+
+@media screen and (max-width: 1285px) {
+  header .header .first-part-header {
+    width: 58.33%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  header .header .first-part-header {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header .header .first-part-header {
+    width: 100%;
+  }
 }
 
 header .header .first-part-header h1 {
   padding-left: 20px;
   color: #111111;
+}
+
+@media screen and (max-width: 800px) {
+  header .header .first-part-header h1 {
+    text-align: center;
+    margin: 20px 0;
+    padding: 0;
+  }
 }
 
 header .header .first-part-header h1:hover {
@@ -673,12 +1014,36 @@ header .header .second-part-header {
   width: 33.33%;
 }
 
+@media screen and (max-width: 1285px) {
+  header .header .second-part-header {
+    width: 41.66%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  header .header .second-part-header {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header .header .second-part-header {
+    width: 100%;
+  }
+}
+
 header .header .second-part-header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+  header .header .second-part-header ul {
+    padding: 0;
+  }
 }
 
 header .header .second-part-header ul li:hover {
@@ -688,6 +1053,12 @@ header .header .second-part-header ul li:hover {
 
 header .header .second-part-header ul li .contact {
   color: #0ebca5;
+}
+
+@media screen and (max-width: 600px) {
+  header .header .second-part-header ul li {
+    font-size: 15px;
+  }
 }
 
 footer {
@@ -713,6 +1084,12 @@ footer .footer ul {
   display: flex;
 }
 
+@media screen and (max-width: 600px) {
+  footer .footer ul {
+    font-size: 12px;
+  }
+}
+
 footer .footer ul li {
   padding-right: 25px;
   font-size: 20px;
@@ -733,6 +1110,12 @@ footer p {
       -ms-flex-align: center;
           align-items: center;
   font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  footer p {
+    font-size: 12px;
+  }
 }
 
 .project {
@@ -780,6 +1163,25 @@ footer p {
   font-size: 30px;
 }
 
+@media screen and (max-width: 1025px) {
+  .project .project-header .arrow {
+    left: 80px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project .project-header .arrow {
+    top: 180px;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project .project-header .arrow {
+    left: 30px;
+  }
+}
+
 .project .project-body {
   min-height: 500px;
   display: -webkit-box;
@@ -795,11 +1197,26 @@ footer p {
           align-items: center;
 }
 
+@media screen and (max-width: 1285px) {
+  .project .project-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .project .project-body img {
   width: 58.33%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (max-width: 1285px) {
+  .project .project-body img {
+    width: 100%;
+  }
 }
 
 .project .project-body p {
@@ -808,6 +1225,19 @@ footer p {
   padding: 10px;
   height: 100%;
   background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 1285px) {
+  .project .project-body p {
+    width: 91.66%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project .project-body p {
+    font-size: 15px;
+  }
 }
 
 .project .project-footer {
@@ -824,6 +1254,18 @@ footer p {
   width: 33.33%;
   padding-bottom: 30px;
   border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 1285px) {
+  .project .project-footer {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project .project-footer {
+    width: 100%;
+  }
 }
 
 .project .project-footer h4 {
@@ -871,6 +1313,25 @@ footer p {
   font-size: 30px;
 }
 
+@media screen and (max-width: 1025px) {
+  .formations a {
+    left: 80px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .formations a {
+    top: 180px;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .formations a {
+    left: 30px;
+  }
+}
+
 .formations h3 {
   text-align: center;
   padding: 80px 0;
@@ -881,7 +1342,7 @@ footer p {
 }
 
 .formations .card-formation-first {
-  height: 200px;
+  height: auto;
   width: 91.66%;
   background-color: #0ebca5;
   color: #FFFFFF;
@@ -902,13 +1363,31 @@ footer p {
   padding: 0 15px 0 200px;
 }
 
+@media screen and (max-width: 1025px) {
+  .formations .card-formation-first .top-card-formation-first i {
+    padding: 0 15px 0 10px;
+  }
+}
+
 .formations .card-formation-first .bottom-card-formation-first {
   margin: 20px 0;
   padding-left: 15%;
 }
 
+@media screen and (max-width: 1025px) {
+  .formations .card-formation-first .bottom-card-formation-first {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .formations .card-formation-first .bottom-card-formation-first {
+    font-size: 15px;
+  }
+}
+
 .formations .card-formation-second {
-  height: 230px;
+  height: auto;
   width: 91.66%;
   background-color: #FFFFFF;
   -webkit-animation: moveRight 1s;
@@ -928,9 +1407,27 @@ footer p {
   padding: 0 15px 0 200px;
 }
 
+@media screen and (max-width: 1025px) {
+  .formations .card-formation-second .top-card-formation-second i {
+    padding: 0 15px 0 10px;
+  }
+}
+
 .formations .card-formation-second .bottom-card-formation-second {
   margin: 20px 0;
   padding-left: 15%;
+}
+
+@media screen and (max-width: 1025px) {
+  .formations .card-formation-second .bottom-card-formation-second {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .formations .card-formation-second .bottom-card-formation-second {
+    font-size: 15px;
+  }
 }
 
 .school {
@@ -963,6 +1460,25 @@ footer p {
   font-size: 30px;
 }
 
+@media screen and (max-width: 1025px) {
+  .school .arrow {
+    left: 80px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .school .arrow {
+    top: 165px;
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .school .arrow {
+    left: 30px;
+  }
+}
+
 .school h3 {
   text-align: center;
   padding: 60px 0;
@@ -973,7 +1489,6 @@ footer p {
 }
 
 .school .card-school-first {
-  height: 220px;
   width: 91.66%;
   background-color: #0ebca5;
   color: #FFFFFF;
@@ -995,6 +1510,12 @@ footer p {
   padding: 0 15px 0 200px;
 }
 
+@media screen and (max-width: 1025px) {
+  .school .card-school-first .top-card-school-first i {
+    padding: 0 15px 0 10px;
+  }
+}
+
 .school .card-school-first .bottom-card-school-first {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1009,8 +1530,33 @@ footer p {
   margin: 20px 0;
 }
 
+@media screen and (max-width: 1025px) {
+  .school .card-school-first .bottom-card-school-first {
+    -webkit-box-align: initial;
+        -ms-flex-align: initial;
+            align-items: initial;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .school .card-school-first .bottom-card-school-first {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .school .card-school-first .bottom-card-school-first {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .school .card-school-first .bottom-card-school-first p {
+    padding: 0 15px 0 10px;
+  }
+}
+
 .school .card-school-second {
-  height: 600px;
   width: 91.66%;
   background-color: #FFFFFF;
   padding-top: 30px;
@@ -1031,6 +1577,12 @@ footer p {
   padding: 0 15px 0 200px;
 }
 
+@media screen and (max-width: 1025px) {
+  .school .card-school-second .top-card-school-second i {
+    padding: 0 15px 0 10px;
+  }
+}
+
 .school .card-school-second .bottom-card-school-second {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1046,7 +1598,14 @@ footer p {
 }
 
 .school .card-school-second .bottom-card-school-second p {
-  padding: 20px 0 40px 0;
+  text-align: center;
+  padding: 20px 15px 40px 10px;
+}
+
+@media screen and (max-width: 1025px) {
+  .school .card-school-second .bottom-card-school-second p {
+    padding: 20px 15px 40px 10px;
+  }
 }
 
 .school .card-school-second .bottom-card-school-second .frise {
@@ -1054,11 +1613,46 @@ footer p {
   overflow-x: hidden;
 }
 
+@media screen and (max-width: 800px) {
+  .school .card-school-second .bottom-card-school-second .frise {
+    overflow: scroll;
+    width: 100%;
+    height: 300px;
+  }
+}
+
 .school .card-school-second .bottom-card-school-second .frise ol {
   font-size: 0;
   width: 1500px;
   padding: 100px 0 250px 0;
   background: #e9e9e9;
+}
+
+@media screen and (max-width: 1285px) {
+  .school .card-school-second .bottom-card-school-second .frise ol {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .school .card-school-second .bottom-card-school-second .frise ol {
+    width: 775px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .school .card-school-second .bottom-card-school-second .frise ol {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
 }
 
 .school .card-school-second .bottom-card-school-second .frise ol li {
@@ -1070,12 +1664,57 @@ footer p {
   background: #111111;
 }
 
+@media screen and (max-width: 1285px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li {
+    width: 128px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li {
+    width: 95px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li {
+    position: initial;
+    width: 100%;
+    height: auto;
+    background: none;
+  }
+}
+
 .school .card-school-second .bottom-card-school-second .frise ol li:last-child {
   width: 195px;
 }
 
+@media screen and (max-width: 1285px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li:last-child {
+    width: 128px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li:last-child {
+    width: 95px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li:last-child {
+    width: auto;
+  }
+}
+
 .school .card-school-second .bottom-card-school-second .frise ol li:not(:first-child) {
   margin-left: 14px;
+}
+
+@media screen and (max-width: 800px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li:not(:first-child) {
+    margin: 0;
+  }
 }
 
 .school .card-school-second .bottom-card-school-second .frise ol li::after {
@@ -1090,6 +1729,30 @@ footer p {
           transform: translateY(-50%);
   border-radius: 50%;
   background: #0ebca5;
+}
+
+@media screen and (max-width: 800px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li::after {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li a {
+    position: initial;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .school .card-school-second .bottom-card-school-second .frise ol li a div {
@@ -1107,6 +1770,34 @@ footer p {
   border-bottom-right-radius: 15px;
 }
 
+@media screen and (max-width: 1285px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li a div {
+    width: 100px;
+    left: -45px;
+    padding: 50px 15px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li a div {
+    width: 65px;
+    left: -45px;
+    font-size: 12px;
+    padding: 40px 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li a div {
+    position: initial;
+    width: 200px;
+    height: 25px;
+    background-color: #0ebca5;
+    margin: 10px 0;
+    text-align: center;
+  }
+}
+
 .school .card-school-second .bottom-card-school-second .frise ol li a:hover div {
   position: absolute;
   left: calc(100% - 25px);
@@ -1122,6 +1813,29 @@ footer p {
   border-bottom-right-radius: 15px;
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
+}
+
+@media screen and (max-width: 1285px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li a:hover div {
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li a:hover div {
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .school .card-school-second .bottom-card-school-second .frise ol li a:hover div {
+    position: initial;
+    width: 250px;
+    height: 50px;
+    background-color: #0ebca5;
+    margin: 10px 0;
+    text-align: center;
+  }
 }
 
 .school .card-school-second .bottom-card-school-second .frise ol li a:hover .eve {

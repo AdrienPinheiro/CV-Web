@@ -7,12 +7,16 @@
         background-color: $white;
         height: 375px;
         width: $col10;
+        
         .card-formation-experience{
             height: 375px;
             width: $col12;
             display: flex;
             justify-content: center;
             align-items: center;
+            @include little-phone{
+                flex-direction: column;
+            }
             .top-card-formation-experience{
                 color: $primary;
                 font-size: 30px;
@@ -33,6 +37,9 @@
             justify-content: center;
             align-items: center;
             background-color: $primary;
+            @include little-phone{
+                flex-direction: column;
+            }
             .top-card-formation-school{
                 color: $white;
                 font-size: 30px;
@@ -53,11 +60,26 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                @include little-phone{
+                    height: auto;
+                    justify-content: initial;
+                }
                 .top-card-formation-experience{
                     color: $primary;
                     width: $col5;
                     text-align: center;
                     animation: formationTop 0.5s;
+                    @include little-phone{
+                        width: $col12;
+                    }
+                    h2{
+                        @include phone{
+                            font-size: 30px;
+                        }
+                        @include little-phone{
+                            padding: 10px 0;
+                        }
+                    }
                 }
                 .bottom-card-formation-experience{
                     display: block;
@@ -69,14 +91,27 @@
                     justify-content: center;
                     align-items: center;
                     animation: experiencesBottom 1s;
+                    @include little-phone{
+                        width: $col11;
+                    }
                     ul{
                         li{
                             color: $white;
+                            @include phone{
+                                font-size: 20px;
+                            }
+                            @include little-phone{
+                                font-size: 15px;
+                            }
                         }
                     }
                     i{
                         padding-left: 50px;
                         font-size: 60px;
+                        @include phone{
+                            font-size: 40px;
+                            padding-right: 20px;
+                        }
                     }
                 }
             }            
@@ -86,10 +121,24 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                @include little-phone{
+                    height: auto;
+                    justify-content: initial;
+                }
                 .top-card-formation-school{
                     width: $col5;
                     text-align: center;
                     animation: formationTop 0.5s;
+                    @include little-phone{
+                        order: 1;
+                        width: $col12;
+                    }
+                    h2{
+                        @include phone{
+                            font-size: 30px;
+                        }
+                        
+                    }
                 }
                 .bottom-card-formation-school{
                     display: block;
@@ -101,14 +150,27 @@
                     justify-content: center;
                     align-items: center;
                     animation: schoolBottom 1s;
+                    @include little-phone{
+                        width: $col11;
+                    }
                     ul{
                         li{
                             color: $primary;
+                            @include phone{
+                                font-size: 20px;
+                            }
+                            @include little-phone{
+                                font-size: 15px;
+                            }
                         }
                     }
                     i{
                         padding-left: 50px;
                         font-size: 60px;
+                        @include phone{
+                            font-size: 40px;
+                            padding-right: 20px;
+                        }
                     }
                 }
             }
