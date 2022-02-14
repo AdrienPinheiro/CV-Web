@@ -27,7 +27,7 @@ const index = () => {
         <BrowserRouter>
             <Navbar/>
             <Routes>
-                <Route path="/accueil" element={<Home/>}/>
+                <Route path="/" element={<Home/>}/>
                 <Route path="/a-propos" element={<Biographie/>}/>
                 <Route path="/mes-formations" element={<Formation/>}/>
                 <Route path="/contact" element={<Contact/>}/>

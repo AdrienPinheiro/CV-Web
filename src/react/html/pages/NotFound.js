@@ -9,7 +9,7 @@ const NotFound = () => {
             <br/>
             <p>Vous vous êtes perdu ! <br/>
             Mais pas d'inquiétude, nous avons laissé des petits cailloux pour que vous reveniez sur vos pas :P</p>
-            <NavLink exact to="/accueil"><p>Suivre les petits cailloux !</p></NavLink>  
+            <NavLink exact to="/"><p>Suivre les petits cailloux !</p></NavLink>  
         </div>
     );
 };

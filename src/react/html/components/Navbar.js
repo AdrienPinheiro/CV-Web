@@ -8,7 +8,7 @@ const Navbar = () => {
         <header>
             <div className="header">
                 <div className="first-part-header">
-                    <NavLink exact to="/accueil">
+                    <NavLink exact to="/">
                         <h1>Adrien Pinheiro</h1>
                     </NavLink>
                 </div>
